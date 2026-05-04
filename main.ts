@@ -1,4 +1,4 @@
-const BACKEND = "http://YOUR_SERVER_IP:8080";
+const BACKEND = "141.11.1.69:8080";
 
 Deno.serve(async (req) => {
   const url = new URL(req.url);
